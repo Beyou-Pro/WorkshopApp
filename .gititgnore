@@ -1,0 +1,37 @@
+Fichier .gitignore pour projets C++ et CMake
+--- Fichiers générés par CMake et la compilation ---
+Exclure le dossier de compilation complet
+build/
+
+Fichiers de configuration CMake générés dans le répertoire racine (si Build in Source est utilisé, ce qui est déconseillé)
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+Fichiers des générateurs spécifiques (ex: Visual Studio)
+*.vcxproj
+*.sln
+*.user
+*.filters
+*.vsproj
+*.suo
+
+--- Fichiers d'objets et exécutables ---
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+*.exe
+
+--- Fichiers spécifiques aux éditeurs et IDE ---
+Visual Studio Code
+.vscode/
+
+JetBrains IDEs (CLion, etc.)
+.idea/

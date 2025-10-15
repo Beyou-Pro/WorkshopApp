@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc liblibutils.a CMakeFiles/libutils.dir/src/libutils/utils.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe liblibutils.a
