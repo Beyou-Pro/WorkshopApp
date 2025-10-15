@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = C:\Users\jacqu\OneDrive\Bureau\workshop_2025\task14\build
 
 # The main recursive "all" target.
 all: CMakeFiles/libutils.dir/all
-all: CMakeFiles/WorkshopApp.dir/all
+all: CMakeFiles/GitScanner.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,7 +72,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/libutils.dir/clean
-clean: CMakeFiles/WorkshopApp.dir/clean
+clean: CMakeFiles/GitScanner.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -102,30 +102,30 @@ CMakeFiles/libutils.dir/clean:
 .PHONY : CMakeFiles/libutils.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/WorkshopApp.dir
+# Target rules for target CMakeFiles/GitScanner.dir
 
 # All Build rule for target.
-CMakeFiles/WorkshopApp.dir/all: CMakeFiles/libutils.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkshopApp.dir\build.make CMakeFiles/WorkshopApp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkshopApp.dir\build.make CMakeFiles/WorkshopApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\jacqu\OneDrive\Bureau\workshop_2025\task14\build\CMakeFiles --progress-num=1,2 "Built target WorkshopApp"
-.PHONY : CMakeFiles/WorkshopApp.dir/all
+CMakeFiles/GitScanner.dir/all: CMakeFiles/libutils.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GitScanner.dir\build.make CMakeFiles/GitScanner.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GitScanner.dir\build.make CMakeFiles/GitScanner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\jacqu\OneDrive\Bureau\workshop_2025\task14\build\CMakeFiles --progress-num=1,2 "Built target GitScanner"
+.PHONY : CMakeFiles/GitScanner.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/WorkshopApp.dir/rule: cmake_check_build_system
+CMakeFiles/GitScanner.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jacqu\OneDrive\Bureau\workshop_2025\task14\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/WorkshopApp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GitScanner.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\jacqu\OneDrive\Bureau\workshop_2025\task14\build\CMakeFiles 0
-.PHONY : CMakeFiles/WorkshopApp.dir/rule
+.PHONY : CMakeFiles/GitScanner.dir/rule
 
 # Convenience name for target.
-WorkshopApp: CMakeFiles/WorkshopApp.dir/rule
-.PHONY : WorkshopApp
+GitScanner: CMakeFiles/GitScanner.dir/rule
+.PHONY : GitScanner
 
 # clean rule for target.
-CMakeFiles/WorkshopApp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkshopApp.dir\build.make CMakeFiles/WorkshopApp.dir/clean
-.PHONY : CMakeFiles/WorkshopApp.dir/clean
+CMakeFiles/GitScanner.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GitScanner.dir\build.make CMakeFiles/GitScanner.dir/clean
+.PHONY : CMakeFiles/GitScanner.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

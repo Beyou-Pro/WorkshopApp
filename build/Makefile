@@ -129,17 +129,17 @@ libutils/fast:
 .PHONY : libutils/fast
 
 #=============================================================================
-# Target rules for targets named WorkshopApp
+# Target rules for targets named GitScanner
 
 # Build rule for target.
-WorkshopApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 WorkshopApp
-.PHONY : WorkshopApp
+GitScanner: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 GitScanner
+.PHONY : GitScanner
 
 # fast build rule for target.
-WorkshopApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkshopApp.dir\build.make CMakeFiles/WorkshopApp.dir/build
-.PHONY : WorkshopApp/fast
+GitScanner/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GitScanner.dir\build.make CMakeFiles/GitScanner.dir/build
+.PHONY : GitScanner/fast
 
 src/libutils/utils.obj: src/libutils/utils.cpp.obj
 .PHONY : src/libutils/utils.obj
@@ -170,7 +170,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkshopApp.dir\build.make CMakeFiles/WorkshopApp.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GitScanner.dir\build.make CMakeFiles/GitScanner.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -178,7 +178,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkshopApp.dir\build.make CMakeFiles/WorkshopApp.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GitScanner.dir\build.make CMakeFiles/GitScanner.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -186,7 +186,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WorkshopApp.dir\build.make CMakeFiles/WorkshopApp.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GitScanner.dir\build.make CMakeFiles/GitScanner.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -197,7 +197,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... WorkshopApp
+	@echo ... GitScanner
 	@echo ... libutils
 	@echo ... src/libutils/utils.obj
 	@echo ... src/libutils/utils.i

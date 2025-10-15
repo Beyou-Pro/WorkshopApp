@@ -1,4 +1,4 @@
 C:/Users/jacqu/OneDrive/Bureau/workshop_2025/task14/build/CMakeFiles/libutils.dir
-C:/Users/jacqu/OneDrive/Bureau/workshop_2025/task14/build/CMakeFiles/WorkshopApp.dir
+C:/Users/jacqu/OneDrive/Bureau/workshop_2025/task14/build/CMakeFiles/GitScanner.dir
 C:/Users/jacqu/OneDrive/Bureau/workshop_2025/task14/build/CMakeFiles/edit_cache.dir
 C:/Users/jacqu/OneDrive/Bureau/workshop_2025/task14/build/CMakeFiles/rebuild_cache.dir

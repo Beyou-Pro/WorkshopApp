@@ -45,5 +45,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/libutils.dir/DependInfo.cmake"
-  "CMakeFiles/WorkshopApp.dir/DependInfo.cmake"
+  "CMakeFiles/GitScanner.dir/DependInfo.cmake"
   )

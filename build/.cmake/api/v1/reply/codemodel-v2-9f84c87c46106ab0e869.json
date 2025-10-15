@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "WorkshopApp",
+					"name" : "GitScanner",
 					"targetIndexes" : 
 					[
 						0,
@@ -40,9 +40,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "WorkshopApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WorkshopApp-Debug-82b465ecf4a7366e6853.json",
-					"name" : "WorkshopApp",
+					"id" : "GitScanner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GitScanner-Debug-82ffca4d3602a07ab306.json",
+					"name" : "GitScanner",
 					"projectIndex" : 0
 				},
 				{

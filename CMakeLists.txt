@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(WorkshopApp CXX)
+project(GitScanner CXX) # Renommer le projet pour mieux refléter sa fonction
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -11,19 +11,18 @@ add_library(libutils STATIC
 )
 
 # Rend le répertoire 'include' visible publiquement pour tout lien à libutils.
-# Cela permet à main.cpp de trouver "libutils/utils.h".
+# Le header est nécessaire pour le main.cpp
 target_include_directories(libutils PUBLIC 
     ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 # --- 2. DÉFINITION ET LIAISON DE L'EXÉCUTABLE PRINCIPAL ---
-add_executable(WorkshopApp 
+add_executable(GitScanner 
     src/main.cpp
 )
 
-# Lier l'exécutable à la bibliothèque 'libutils'. 
-# Grâce à 'target_include_directories(libutils PUBLIC ...)', 
-# l'exécutable hérite de l'include path nécessaire.
-target_link_libraries(WorkshopApp PRIVATE 
+# Lier l'exécutable à la bibliothèque 'libutils'
+# Nous n'avons pas besoin de liens supplémentaires pour std::filesystem car C++17 le rend généralement disponible
+target_link_libraries(GitScanner PRIVATE 
     libutils
 )

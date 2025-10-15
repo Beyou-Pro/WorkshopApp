@@ -7,8 +7,8 @@
 },
 {
   "directory": "C:/Users/jacqu/OneDrive/Bureau/workshop_2025/task14/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/WorkshopApp.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\WorkshopApp.dir\\src\\main.cpp.obj -c C:\\Users\\jacqu\\OneDrive\\Bureau\\workshop_2025\\task14\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/GitScanner.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\GitScanner.dir\\src\\main.cpp.obj -c C:\\Users\\jacqu\\OneDrive\\Bureau\\workshop_2025\\task14\\src\\main.cpp",
   "file": "C:/Users/jacqu/OneDrive/Bureau/workshop_2025/task14/src/main.cpp",
-  "output": "CMakeFiles/WorkshopApp.dir/src/main.cpp.obj"
+  "output": "CMakeFiles/GitScanner.dir/src/main.cpp.obj"
 }
 ]
