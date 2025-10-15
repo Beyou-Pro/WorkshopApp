@@ -37,5 +37,5 @@ if (Test-Path $ExecutablePath) {
     Write-Host ""
     Write-Host "--- Exécution de l'application ---"
     & $ExecutablePath
-    Write-Host "--------------------------------"
+    Write-Host "---------------------------"
 }
