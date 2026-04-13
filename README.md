@@ -1,4 +1,4 @@
-Voici un fichier `README.md` clair et structuré pour votre projet, prêt à être utilisé.
+#### DISCLAIMER PROJET ENTIEREMENT GENERER PAR GEMINI 2.5 A BUT PEDAGOGIQUE
 
 # 🚀 WorkshopApp : Démo d'une Bibliothèque Interne et de Détection d'OS
 
